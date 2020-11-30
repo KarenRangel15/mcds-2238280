@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICOS BÁSICOS JAVASCRIPT</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <fieldset>
+            <LEgend>EJERCICIO #1</LEgend>
+            Ingrese un número <input name="num1" id="num1" type="number" /><br><br>
+            Ingrese un número <input name="num2" id="num2" type="number" /><br><br>
+            <input type="button" value="RESTAR" onclick="operacionResta('restar');" />
+            <p id="resultado"></p>
+        </fieldset>
+    </form> <br><br>
+
+    <form action="" method="POST">
+        <fieldset>
+            <LEgend>EJERCICIO #2</LEgend>
+            Ingrese un número <input name="valor1" id="valor1" type="number" /><br><br>
+            Ingrese un número <input name="valor2" id="valor2" type="number" /><br><br>
+            <input type="button" value="restar" onclick="operacionRestar('restar');" />
+            <p id="resultadoResta"></p>
+            <input type="button" value="multiplicar" onclick="operacionMultiplicar('multiplicar');" />
+            <p id="resultadoMultiplicacion"></p>
+        </fieldset>
+    </form><br><br>
+
+    <form action="" method="POST">
+        <fieldset>
+            <legend>EJERCICIO#3</legend>
+            <input type="button" value="MOSTRAR" onclick="aleatorioRango('aleatorio');" />
+            <p id="aleatorio"></p>
+        </fieldset>
+    </form> <br><br>
+
+    <form action="" method="POST">
+        <fieldset>
+            <LEgend>EJERCICIO #4</LEgend>
+            <legend>Meses del Año</legend>
+            <button id="press" type="button" class="btn " onclick= "meses()">Mostrar Mes</button>
+
+            <div id="mes" class=""></div>
+            <div id="div" class=""></div>     
+        </fieldset>
+    </form>
+    <script src="js/ejercicio1.js"></script>
+    <script src="js/ejercicio2.js"></script>
+    <script src="js/ejercicio3.js"></script>
+    <script src="js/ejercicio4.js"></script>
+</body>
+</html>
+
